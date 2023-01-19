@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    color: #282828;
+}
+
+
+    /* /////////top image/////// */
+
+.topcover{
+    background-image: linear-gradient(to top, black ,black) ;
+    width: 100%;
+    height: 800px;
+
+
+}
+
+.topcover img{
+    width: 100%;
+    height: 800px;
+    opacity: 0.2;
+}
+.coverimg{
+    position: relative;
+     background-image: url(./images/10-Skill-yang-Harus-Dimiliki-Front-End-Developer.jpg);
+     width: 100%;
+    height: 800px;
+    opacity: 0.4;
+    background-size: cover;
+    background-position: center;
+}
+.topcontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 300px;
+    /* border: 1px solid reds; */
+    
+}
+.topcontain h2{
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+.topcontain h2 span{
+    color: #c39c68;
+    }
+.topcontain h3{
+    font-family: sans-serif;
+    color: #c39c68;
+    margin: 15px 0;
+}
+.topcontain h3 span{
+    color: white;
+}
+.topcontain p{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px ;
+    font-size: large;
+}
+
+.topcontain td{
+    border: 1px solid white;
+    padding: 10px 0;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+}
+.topcontain td i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.topcontain td:hover{
+    background-color: black;
+    transition: all ease 0.5s;
+}
+
+/* //////  xxxxxx/xxxxxxxxxxx/xxxxxxxxxx/x */
+
+    /* //////////NAVBAR STYLING ////// */
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    border-bottom: 4px double lightgrey;
+    margin-top: 10px;
+    padding: 0 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* border: 1px solid red; */
+    
+}
+li{
+    list-style: none;
+}
+.logo{
+
+    width: 400px;
+    color: #455565;
+    /* border: 1px solid green; */
+    /* font-size: 20px; */
+    font-family:sans-serif;
+    letter-spacing: 5px;
+}
+.logo span{
+    color: #8068c3;
+    /* display: inline-block; */
+}
+
+.navbar-nav{
+    width: 400px;
+    /* border: 1px solid purple; */
+
+}
+.navbar-nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.navbar-nav li{
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 8px 0 ;
+    color: #282828;
+}
+.navbar-nav li:hover{
+    color: #68C3A3;
+    transition: all 0.5s ease;
+    text-decoration: underline;
+
+    
+}
+  
+.navbar-nav li:hover{
+    color: red ;
+    text-decoration: underline;
+}
+  
+
+
+
+    /* /////////////////////ABOUT ME BOX ////////////////// */
+    
+.aboutbox{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px 0 ;
+}
+
+    /* //////HEADING STYLING/////// */
+.aboutheading{
+    text-align: center;
+}
+.aboutheading h2{
+    color: grey;
+}
+.aboutheading h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #282828;
+}
+
+    /* //////ABOUT ME BOXES STYLING */
+
+.aboutme{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutContain{
+    width: 700px;
+    /* border: 1px solid purple;     */
+    margin-top: 20px;
+    
+}
+
+.aboutContain p{
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.aboutContain h1{
+    padding: 0 10px;
+    font-family: sans-serif;
+    color: #282828;    
+}
+
+
+
+
+.aboutprofile{
+    width: 350px;
+    border: 1px solid lightgray;   
+    margin-top: 20px; 
+    border-radius: 0 0 10px 10px ;
+    box-shadow: 2px 2px 5px lightgray;
+
+}
+
+.mypic{
+    width: 100%;
+    height: 300px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 58%, 52% 100%, 0 57%); */
+}
+.aboutprofile li{
+    /* width: 95%; */
+    border-bottom: 1px solid lightgrey;
+    margin:8px ;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+    /* /////////// WORK BOXES STYLING/////// */
+.workbox{
+    
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px 0 ;
+}
+
+.projects{
+    /* width: 100%; */
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+    /* padding: 0 10px; */
+}
+.projects div{
+    border: 1px solid lightgray;
+    width: 260px;
+    margin: 10px 10px;
+    text-align: center;
+    /* background-color: orange; */
+    height: 200px;
+}
+.none{
+    border: none !important;
+
+}
+.projects div img{
+    width: 100%;
+    height: 150px;
+}
+.projects div p{
+    font-family: sans-serif;
+    padding: 5px 0;
+    /* border-top: 1px solid black; */
+}
+.projects p:hover{
+    color: white;
+    background-color: #68C3A3;
+    cursor: pointer;
+}
+
+/* ////////////////////  CONTACT BOXXX STYLING //////////////// */
+
+.contactbox{
+
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 50px;
+    padding: 15px 0 ;    
+}
+
+/* ///MSG BOXX //// */
+.msgbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid seagreen; */
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.msgme{
+    /* border: 1px solid brown; */
+    width: 400px;
+    padding: 8px;
+    /* margin: 20px 0; */
+}
+.msgme table{
+    width: 100%;
+    margin-top: 15px;
+}
+.msgme textarea{
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    padding: 8px;
+    font-size: medium;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+.msgme input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    margin: 10px 0;
+    font-family: sans-serif;  
+    padding: 8px; 
+    font-size: medium;    
+}
+.msgme button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #369171;
+    font-family: sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius:5% ;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+/* ///footer styling/////// */
+
+.endbox{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid lime; */
+    display: flex;
+    align-items:center ;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    background-color: #1A1E23;
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
+.endbox h5{
+    margin: 0 20px;
+}
+.endbox a{
+    text-decoration: none;
+    color: orangered;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 35px;
+}
